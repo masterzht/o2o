@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="优麒麟" createEmptyFolders="true">
+    <serverData>
+      <paths name="优麒麟">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/masterzht/Documents/java/intellij/spring/o2o" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
