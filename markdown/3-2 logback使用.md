@@ -1,0 +1,4 @@
+因为我们写的是logback.xml，所以所有基于logback的日志都会按照我们设置的格式，比如mybatis内部实际上也用了logback，格式就是我们定义的那样。
+主要是设置logback.xml文件，然后主要是在controller里面加一个测试运行时间
+
+1. 看一下，日志会输出到catalina.base那个里面，三十天会删除
