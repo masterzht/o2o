@@ -1,3 +1,6 @@
-2018-04-30 20:32:43.102 [main] DEBUG com.imooc.o2o.dao.AreaDao.queayArea - ==>  Preparing: SELECT area_id,area_name,priority,create_time,last_edit_time FROM tb_area ORDER BY priority DESC 
-2018-04-30 20:32:43.306 [main] DEBUG com.imooc.o2o.dao.AreaDao.queayArea - ==> Parameters: 
-2018-04-30 20:32:43.334 [main] DEBUG com.imooc.o2o.dao.AreaDao.queayArea - <==      Total: 2
+2018-05-03 12:15:23.718 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT into tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice)VALUES (?,?,?, ?,?,?,?,?,?, ?,?,?,?) 
+2018-05-03 12:15:24.122 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试店铺的名字(String), test(String), test(String), 132142344324(String), img(String), null, 2018-05-03 12:15:23.546(Timestamp), null, 1(Integer), 审核中(String)
+2018-05-03 12:15:24.160 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - <==    Updates: 1
+2018-05-03 12:26:33.696 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==>  Preparing: UPDATE tb_shop SET shop_name=? where shop_id=? 
+2018-05-03 12:26:33.940 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==> Parameters: 改名字(String), 2(Long)
+2018-05-03 12:26:33.998 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - <==    Updates: 1

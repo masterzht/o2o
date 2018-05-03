@@ -1,6 +1,7 @@
 package com.imooc.o2o.entity.shop;
 
 import com.imooc.o2o.entity.Area;
+import com.imooc.o2o.entity.user.PersonInfo;
 
 import java.util.Date;
 
@@ -37,8 +38,8 @@ public class Shop {
      * 引入的类
      */
     private Area area;
+    private PersonInfo owner;
     private ShopCategory shopCategory;
-    private ShopCategory parentCategory;
 
     public Long getShopId() {
         return shopId;
@@ -136,19 +137,19 @@ public class Shop {
         this.area = area;
     }
 
+    public PersonInfo getOwner() {
+        return owner;
+    }
+
+    public void setOwner(PersonInfo owner) {
+        this.owner = owner;
+    }
+
     public ShopCategory getShopCategory() {
         return shopCategory;
     }
 
     public void setShopCategory(ShopCategory shopCategory) {
         this.shopCategory = shopCategory;
-    }
-
-    public ShopCategory getParentCategory() {
-        return parentCategory;
-    }
-
-    public void setParentCategory(ShopCategory parentCategory) {
-        this.parentCategory = parentCategory;
     }
 }
