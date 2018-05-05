@@ -41,7 +41,7 @@ public class ShopDaoTest extends BaseTest {
         shop.setShopDesc("test");
         shop.setShopAddr("test");
         shop.setPhone("132142344324");
-        shop.setShopImg("img");
+        shop.setShopImg("resources/img");
         shop.setCreateTime(new Date());
         shop.setEnableStatus(1);
         shop.setAdvice("审核中");
